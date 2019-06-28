@@ -1,8 +1,19 @@
 <template>
-  <div>
+  <div id="app">
+    <EfCursor />
     <nuxt />
   </div>
 </template>
+
+<script>
+import EfCursor from '@/components/Cursor.vue';
+
+export default {
+  components: {
+    EfCursor
+  }
+};
+</script>
 
 <style>
 html {
@@ -17,11 +28,20 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000;
+}
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
   margin: 0;
+  cursor: none;
+}
+
+#app {
+  background-color: #fff;
 }
 
 .button--green {
