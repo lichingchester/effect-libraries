@@ -4,7 +4,7 @@
     <div>
       <logo />
       <h1 class="title">
-        sino-canvas
+        effect-libraries
       </h1>
       <h2 class="subtitle">
         My wonderful Nuxt.js project
